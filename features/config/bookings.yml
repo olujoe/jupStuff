@@ -1,0 +1,113 @@
+QA_W1:
+    arrivalbooking1:  
+        primary : BBC3
+        status : No
+        record : Yes (R)
+        allocated_to : Z1 Record
+        from : Freesat2 sync
+        automatic : Yes
+        rights : green
+        story : rfstory3
+        details : rfdetails
+        description : rfdescription
+        restrictions : Testing Rights
+        archive : No
+        agency : No
+        timezone : Europe/London (daylight savings observed)
+
+    arrivalbooking2: 
+        status : No
+        record : Yes (R)
+        allocated_to : Z1 Record
+        from : Freesat2 sync
+        automatic : Yes
+        rights : green
+        story : rfstory3
+        details : ArrivalBookingChunked
+        description : ArrivalBookingChunkedDescription
+        restrictions : Testing Rights
+        archive : No
+        agency : No
+        timezone : Europe/London (daylight savings observed)
+
+    departurebooking1: 
+        allocated_to : Z1 Play
+        playout : Yes (R)
+        automatic : Yes
+        to : Hardip mon 1
+        title : rfstory3
+        timezone : Europe/London (daylight savings observed)
+
+QA_USA:
+    arrivalbooking1: 
+        primary : BBC3
+        status : No
+        record : Yes (R)
+        allocated_to : Record
+        from : Freesat525 sync
+        automatic : Yes
+        rights : green
+        story : rfstory3
+        details : rfdetails
+        description : rfdescription
+        restrictions : Testing Rights
+        archive : No
+        agency : No
+
+    arrivalbooking2:  
+        status : No
+        record : Yes (R)
+        allocated_to : Record
+        from : Freesat525 sync
+        automatic : Yes
+        rights : green
+        story : rfstory3
+        details : ArrivalBookingChunked
+        description : ArrivalBookingChunkedDescription
+        restrictions : Testing Rights
+        archive : No
+        agency : No
+
+    departurebooking1:  
+        allocated_to : Play
+        playout : Yes (R)
+        automatic : Yes
+        to : Hardip Monitor 1
+        title : rfstory3
+QA_WS:
+    arrivalbooking1: 
+        primary : News
+        status : No
+        record : Yes (R)
+        allocated_to : WS2020 Record
+        from : Freesat1 sync
+        automatic : Yes
+        rights : green
+        story : rfstory3
+        details : rfdetails
+        description : rfdescription
+        restrictions : Testing Rights
+        archive : No
+        agency : No
+
+    arrivalbooking2:  
+        status : No
+        record : Yes (R)
+        allocated_to : WS2020 Record
+        from : Freesat1 sync
+        automatic : Yes
+        rights : green
+        story : rfstory3
+        details : ArrivalBookingChunked
+        description : ArrivalBookingChunkedDescription
+        restrictions : Testing Rights
+        archive : No
+        agency : No
+
+    departurebooking1:  
+        allocated_to : WS2020 Play
+        playout : Yes (R)
+        automatic : Yes
+        to : Hardip mon1
+        title : rfstory3
+        timezone : Asia/Kolkata

@@ -1,0 +1,1 @@
+dir "C:\Users\BBCNewsTest\Desktop\Screen capture\Screenpresso\*.png" /b >> image_list.txt

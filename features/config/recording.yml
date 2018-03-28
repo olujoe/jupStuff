@@ -1,0 +1,510 @@
+QA_W1:
+    crashrecording1: 
+        outlet : BBC3
+        status : Raw
+        category : Recording 
+        position : Z1 Record
+        record_from : Freesat2 sync
+        rights : green
+        story : auto
+        details : recording
+        description : Testing
+        copyrights : BBC News
+        restrictions : Testing Rights
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording2: 
+        outlet : BBC3
+        status : Raw
+        category : Recording 
+        position : Z1 Record
+        record_from : Freesat2 sync
+        rights : green
+        story : auto
+        details : chunkedRecording
+        description : Testing
+        copyrights : BBC News
+        restrictions : Testing Rights
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording3: 
+        outlet : BBC3
+        status : Raw
+        category : Recording 
+        position : Z1 Record
+        record_from : Freesat2 sync
+        rights : green
+        story : auto
+        details : depart
+        description : Testing
+        copyrights : BBC News
+        restrictions : Testing Rights
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording4: 
+        outlet : BBC3
+        status : Raw
+        category : Recording 
+        position : Z1 Record
+        record_from : Freesat2 sync
+        rights : red
+        story : rights
+        details : red rec
+        description : Rights Testing Red
+        copyrights : Reuters
+        restrictions : "RESTRICTED USE: This media item has a RED default traffic light and copyright is owned by Reuters"
+        quickfill : ""
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording5: 
+        outlet : BBC3
+        status : Raw
+        category : Recording 
+        position : Z1 Record
+        record_from : Freesat2 sync
+        rights : amber
+        story : rights
+        details : amber rec
+        description : Rights Testing Amber
+        copyrights : ITV Sport
+        restrictions : "RESTRICTED USE: This media item has a AMBER default traffic light and copyright is owned by ITVSPORT"
+        quickfill : ""
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording6: 
+        outlet : BBC3
+        status : Raw
+        category : Recording 
+        position : Z1 Record
+        record_from : Freesat2 sync
+        rights : green
+        story : rights
+        details : green rec
+        description : Rights Testing Green
+        copyrights : BBC News
+        restrictions : "No restrictions: This media item has a GREEN default traffic light and owned by BBC News"
+        quickfill : ""
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording7: 
+        outlet : BBC3
+        status : Raw
+        category : Recording 
+        position : Z1 Record
+        record_from : Freesat2 sync
+        rights : red
+        story : rights
+        details : red rec2
+        description : Rights Testing Red
+        copyrights : Reuters
+        restrictions : "RESTRICTED USE: This media item has a RED default traffic light and copyright is owned by Reuters"
+        quickfill : ""
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording8: 
+        outlet : BBC3
+        status : Raw
+        category : Recording 
+        position : Z1 Record
+        record_from : Freesat2 sync
+        rights : amber
+        story : rights
+        details : amber rec2
+        description : Rights Testing Amber
+        copyrights : ITV Sport
+        restrictions : "RESTRICTED USE: This media item has a AMBER default traffic light and copyright is owned by ITVSPORT"
+        quickfill : ""
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording9: 
+        outlet : BBC3
+        status : Raw
+        category : Recording 
+        position : Z1 Record
+        record_from : Freesat2 sync
+        rights : green
+        story : rights
+        details : green rec2
+        description : Rights Testing Green
+        copyrights : BBC News
+        restrictions : "No restrictions: This media item has a GREEN default traffic light and owned by BBC News"
+        quickfill : ""
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+QA_USA:
+    crashrecording1: 
+        outlet : BBC3
+        status : Raw
+        category : Recording 
+        position : Record
+        record_from : Freesat525 sync
+        cliplist : Yes
+        rights : green
+        story : auto
+        details : recording
+        description : Testing
+        copyrights : BBC News
+        restrictions : Testing Rights
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording2: 
+        outlet : BBC3
+        status : Raw
+        category : Recording 
+        position : Record
+        record_from : Freesat525 sync
+        cliplist : Yes
+        rights : green
+        story : auto
+        details : chunkedRecording
+        description : Testing
+        copyrights : BBC News
+        restrictions : Testing Rights
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording3: 
+        outlet : BBC3
+        status : Raw
+        category : Recording 
+        position : Record
+        record_from : Freesat525 sync
+        cliplist : Yes
+        rights : green
+        story : auto
+        details : depart
+        description : Testing
+        copyrights : BBC News
+        restrictions : Testing Rights
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording4: 
+        outlet : BBC3
+        status : Raw
+        category : Recording 
+
+        ition : Record
+        record_from : Freesat525 sync
+        rights : red
+        story : rights
+        details : red rec
+        description : Rights Testing Red
+        copyrights : Reuters
+        restrictions : "RESTRICTED USE: This media item has a RED default traffic light and copyright is owned by Reuters"
+        quickfill : ""
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording5: 
+        outlet : BBC3
+        status : Raw
+        category : Recording 
+        position : Record
+        record_from : Freesat525 sync
+        rights : amber
+        story : rights
+        details : amber rec
+        description : Rights Testing Amber
+        copyrights : ITV Sport
+        restrictions : "RESTRICTED USE: This media item has a AMBER default traffic light and copyright is owned by ITVSPORT"
+        quickfill : ""
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording6: 
+        outlet : BBC3
+        status : Raw
+        category : Recording 
+        position : Record
+        record_from : Freesat525 sync
+        rights : green
+        story : rights
+        details : green rec
+        description : Rights Testing Green
+        copyrights : BBC News
+        restrictions : "No restrictions: This media item has a GREEN default traffic light and owned by BBC News"
+        quickfill : ""
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording7: 
+        outlet : BBC3
+        status : Raw
+        category : Recording 
+        position : Record
+        record_from : Freesat525 sync
+        rights : red
+        story : rights
+        details : red rec2
+        description : Rights Testing Red
+        copyrights : Reuters
+        restrictions : "RESTRICTED USE: This media item has a RED default traffic light and copyright is owned by Reuters"
+        quickfill : ""
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording8: 
+        outlet : BBC3
+        status : Raw
+        category : Recording 
+        position : Record
+        record_from : Freesat525 sync
+        rights : amber
+        story : rights
+        details : amber rec2
+        description : Rights Testing Amber
+        copyrights : ITV Sport
+        restrictions : "RESTRICTED USE: This media item has a AMBER default traffic light and copyright is owned by ITVSPORT"
+        quickfill : ""
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording9: 
+        outlet : BBC3
+        status : Raw
+        category : Recording 
+        position : Record
+        record_from : Freesat525 sync
+        rights : green
+        story : rights
+        details : green rec2
+        description : Rights Testing Green
+        copyrights : BBC News
+        restrictions : "No restrictions: This media item has a GREEN default traffic light and owned by BBC News"
+        quickfill : ""
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+QA_WS:
+    crashrecording1: 
+        outlet : News
+        status : Raw
+        category : Recording 
+        position : WS2020 Record
+        record_from : HD Bars i/25
+        rights : green
+        story : auto
+        details : recording
+        description : Testing
+        copyrights : BBC News
+        restrictions : Testing Rights
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording2: 
+        outlet : News
+        status : Raw
+        category : Recording 
+        position : WS2020 Record
+        record_from : HD Bars i/25
+        rights : green
+        story : auto
+        details : chunkedRecording
+        description : Testing
+        copyrights : BBC News
+        restrictions : Testing Rights
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording3: 
+        outlet : News
+        status : Raw
+        category : Recording 
+        position : WS2020 Record
+        record_from : HD Bars i/25
+        rights : green
+        story : auto
+        details : depart
+        description : Testing
+        copyrights : BBC News
+        restrictions : Testing Rights
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording4: 
+        outlet : News
+        status : Raw
+        category : Recording 
+        position : WS2020 Record
+        record_from : HD Bars i/25
+        rights : red
+        story : rights
+        details : red rec
+        description : Rights Testing Red
+        copyrights : Reuters
+        restrictions : "RESTRICTED USE: This media item has a RED default traffic light and copyright is owned by Reuters"
+        quickfill : ""
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording5: 
+        outlet : News
+        status : Raw
+        category : Recording 
+        position : WS2020 Record
+        record_from : HD Bars i/25
+        rights : amber
+        story : rights
+        details : amber rec
+        description : Rights Testing Amber
+        copyrights : ITV Sport
+        restrictions : "RESTRICTED USE: This media item has a AMBER default traffic light and copyright is owned by ITVSPORT"
+        quickfill : ""
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording6: 
+        outlet : News
+        status : Raw
+        category : Recording 
+        position : WS2020 Record
+        record_from : HD Bars i/25
+        rights : green
+        story : rights
+        details : green rec
+        description : Rights Testing Green
+        copyrights : BBC News
+        restrictions : "No restrictions: This media item has a GREEN default traffic light and owned by BBC News"
+        quickfill : ""
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording7: 
+        outlet : News
+        status : Raw
+        category : Recording 
+        position : WS2020 Record
+        record_from : HD Bars i/25
+        rights : red
+        story : rights
+        details : red rec2
+        description : Rights Testing Red
+        copyrights : Reuters
+        restrictions : "RESTRICTED USE: This media item has a RED default traffic light and copyright is owned by Reuters"
+        quickfill : ""
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording8: 
+        outlet : News
+        status : Raw
+        category : Recording 
+        position : WS2020 Record
+        record_from : HD Bars i/25
+        rights : amber
+        story : rights
+        details : amber rec2
+        description : Rights Testing Amber
+        copyrights : ITV Sport
+        restrictions : "RESTRICTED USE: This media item has a AMBER default traffic light and copyright is owned by ITVSPORT"
+        quickfill : ""
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No
+
+    crashrecording9: 
+        outlet : News
+        status : Raw
+        category : Recording 
+        position : WS2020 Record
+        record_from : HD Bars i/25
+        rights : green
+        story : rights
+        details : green rec2
+        description : Rights Testing Green
+        copyrights : BBC News
+        restrictions : "No restrictions: This media item has a GREEN default traffic light and owned by BBC News"
+        quickfill : ""
+        archive : No
+        agency : No
+        cliplist : Yes
+        sidebar : No
+        wip : No

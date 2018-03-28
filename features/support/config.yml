@@ -1,0 +1,154 @@
+configfiles:
+    recording : features/config/recording.yml
+    bookings : features/config/bookings.yml
+QA_WS:
+    duplicatedMediaItem: 130
+    duplicateurl : http://rdir.qaws.jupiter.bbc.co.uk/jupiter/qaws/mediaitem/copyseedmediaitem.jsp?itemid=
+    mediadetails : http://rdir.qaws.jupiter.bbc.co.uk/jupiter/qaws/mediaitem/mediaitemXMLwithInstance.jsp?itemids=
+    renameMI: "http://rdir.qaws.jupiter.bbc.co.uk/jupiter/qaws/mediaitem/mediaupdatefunctions.jsp?action=updatemetadata&source=bbcnewstest&itemid="
+    createcomponent: "http://rdir.qaws.jupiter.bbc.co.uk/jupiter/qaws/mediaitem/addnonrightscomponent.jsp?"
+    joe_jobs: http://rdir.qaws.jupiter.bbc.co.uk/jupiter/qaws/jupGUI/jobs
+    boards: "http://rdir.qaws.jupiter.bbc.co.uk/jupiter/qaws/boards/"
+    create_rights_component: "http://rdir.qaws.jupiter.bbc.co.uk/jupiter/qaws/mediaitem/componentOperations.jsp?username=bbcnewstest&action=addComponent"
+    get_all_keyframes: "http://rdir.qaws.jupiter.bbc.co.uk/jupiter/qaws/mediaitem/getmediaitemsxml.jsp?itemids="
+    delete_keyframes: "http://rdir.qaws.jupiter.bbc.co.uk/jupiter/qaws/mediaitem/deletecomponent.jsp?username=bbcnewstest&itemid="
+    post_redirector: "http://rdir.qaws.jupiter.bbc.co.uk/jupiter/qaws/"
+    delOnlineShelfMIurl: "http://rdir.qaws.jupiter.bbc.co.uk/jupiter/qaws/mediaitem/markForDeletion.jsp?userid=bbcnewstest&itemid="
+    delOfflineMIurl: "http://rdir.qaws.jupiter.bbc.co.uk/jupiter/qaws/site2site/deleteImmediateFromArchive.jsp?itemid="
+    delCacheShelfMIurl: "http://rdir.qaws.jupiter.bbc.co.uk/jupiter/qaws/site2site/deleteCacheShelfInstances.jsp?userid=bbcnewstest&itemid="
+    readMIinstanceURL: "http://rdir.qaws.jupiter.bbc.co.uk/jupiter/qaws/mediaitem/mediaitemXMLwithInstance.jsp?itemids="
+    delMI: "http://rdir.qaws.jupiter.bbc.co.uk/jupiter/qaws/mediaitem/mediaitemsearchGui.jsp?text="
+    mppcheckurl: "http://rdir.qaws.jupiter.bbc.co.uk/jupiter/qaws/supportAllInstance/getMPPQueue.jsp"
+    restore_url: "http://rdir.qaws.jupiter.bbc.co.uk/jupiter/qaws/site2site/submitRestoreRequestToOriginalItem.jsp?username=bbcnewstest&itemid="
+    part_restore_url: "http://rdir.qaws.jupiter.bbc.co.uk/jupiter/qaws/site2site/submitRestorePartialOrPlaceholder.jsp?username=bbcnewstest&itemid="
+    zz_reserved: "298858,298857,298856,298855,298852,298850,298846,298845,298862,298851,307840,307841"
+    post_sitelocation: "qa64w1-10"
+    post_siteid: "10"
+    getJobIDURL: "http://zgbwccouchdb7001.jupiter.bbc.co.uk:5984/joe-qa64w1/"
+    getJobDataURL: "http://zgbwccouchdb7001.jupiter.bbc.co.uk:5984/joe-qa64w1/_design/performanceTest/_view/performanceTest?key=%22"
+    save_url: "http://joe.qaw1.jupiter.bbc.co.uk/job/template/jlib_save?username=bbcnewstest"
+    jex_inbox: \\\\qajex02.jupiter.bbc.co.uk\\JEXCache\\ingest\\inbox
+    jlib_deletion_period_new: 48
+    jlib_deletion_period_published: 24
+    jlib_deletion_period_placeholder: 24
+    jlib_deletion_period_restored: 24
+QA_USA:
+    duplicatedMediaItem: 20122
+    duplicateurl : http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qausa/mediaitem/copyseedmediaitem.jsp?itemid=
+    mediadetails : http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qausa/mediaitem/mediaitemXMLwithInstance.jsp?itemids=
+    renameMI: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qausa/mediaitem/mediaupdatefunctions.jsp?action=updatemetadata&source=bbcnewstest&itemid="
+    createcomponent: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qausa/mediaitem/addnonrightscomponent.jsp?"
+    joe_jobs: http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qausa/jupGUI/jobs
+    boards: "http://zgbwcusaapp04.jupiter.bbc.co.uk/boards/"
+    create_rights_component: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qausa/mediaitem/componentOperations.jsp?username=bbcnewstest&action=addComponent"
+    get_all_keyframes: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qausa/mediaitem/getmediaitemsxml.jsp?itemids="
+    delete_keyframes: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qausa/mediaitem/deletecomponent.jsp?username=bbcnewstest&itemid="
+    jlib_deletion_period_new: 48
+    jlib_deletion_period_published: 24
+    jlib_deletion_period_placeholder: 24
+    jlib_deletion_period_restored: 24
+QA_W1:
+    duplicatedMediaItem: 319807
+    post_redirector: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qa64w1/"
+    duplicateurl : "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qa64w1/mediaitem/copyseedmediaitem.jsp?itemid="
+    mediadetails : "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qa64w1/mediaitem/mediaitemXMLwithInstance.jsp?itemids="
+    getJobIDURL: "http://zgbwccouchdb7001.jupiter.bbc.co.uk:5984/joe-qa64w1/"
+    getJobDataURL: "http://zgbwccouchdb7001.jupiter.bbc.co.uk:5984/joe-qa64w1/_design/performanceTest/_view/performanceTest?key=%22"
+    delOnlineShelfMIurl: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qa64w1/mediaitem/markForDeletion.jsp?userid=bbcnewstest&itemid="
+    delOfflineMIurl: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qa64w1/site2site/deleteImmediateFromArchive.jsp?itemid="
+    delCacheShelfMIurl: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qa64w1/site2site/deleteCacheShelfInstances.jsp?userid=bbcnewstest&itemid="
+    readMIinstanceURL: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qa64w1/mediaitem/mediaitemXMLwithInstance.jsp?itemids="
+    #board: "http://joereporting.qaw1.jupiter.bbc.co.uk/reports/performance/"
+    delMI: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qa64w1/mediaitem/mediaitemsearchGui.jsp?text="
+    mppcheckurl: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qa64w1/supportAllInstance/getMPPQueue.jsp"
+    zz_reserved: "298858,298857,298856,298855,298852,298850,298846,298845,298862,298851,307840,307841"
+    save_url: "http://joe.qaw1.jupiter.bbc.co.uk/job/template/jlib_save?username=bbcnewstest"
+    post_sitelocation: "qa64w1-10"
+    post_siteid: "10"
+    renameMI: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qa64w1/mediaitem/mediaupdatefunctions.jsp?action=updatemetadata&source=bbcnewstest&itemid="
+    restore_url: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qa64w1/site2site/submitRestoreRequestToOriginalItem.jsp?username=bbcnewstest&itemid="
+    part_restore_url: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qa64w1/site2site/submitRestorePartialOrPlaceholder.jsp?username=bbcnewstest&itemid="
+    createcomponent: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qa64w1/mediaitem/addnonrightscomponent.jsp?"
+    boards: "http://qaw1.boards.jupiter.bbc.co.uk/boards/"
+    jex_inbox: \\\\qajex02.jupiter.bbc.co.uk\\JEXCache\\ingest\\inbox
+    joe_jobs: http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qa64w1/jupGUI/jobs
+    create_rights_component: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qa64w1/mediaitem/componentOperations.jsp?username=bbcnewstest&action=addComponent"
+    get_all_keyframes: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qa64w1/mediaitem/getmediaitemsxml.jsp?itemids="
+    delete_keyframes: "http://qa64w1rdir01.jupiter.bbc.co.uk/jupiter/qa64w1/mediaitem/deletecomponent.jsp?username=bbcnewstest&itemid="
+    jlib_deletion_period_new: 48
+    jlib_deletion_period_published: 24
+    jlib_deletion_period_placeholder: 24
+    jlib_deletion_period_restored: 24
+West1:
+    post_redirector: "http://newsjbhrdir00.national.core.bbc.co.uk/jupiter/west1/"
+    duplicateurl : "http://newsjbhrdir00.national.core.bbc.co.uk/jupiter/west1/mediaitem/copyseedmediaitem.jsp?itemid="
+    getJobIDURL: "http://newsjbhcouch00.national.core.bbc.co.uk/joe-w1/"
+    getJobDataURL: "http://newsjbhcouch00.national.core.bbc.co.uk/joe-w1/_design/performanceTest/_view/performanceTest?key=%22"
+    delOnlineShelfMIurl: "http://newsjbhrdir00.national.core.bbc.co.uk/jupiter/west1/mediaitem/markForDeletion.jsp?userid=bbcnewstest&itemid="
+    delOfflineMIurl: "http://newsjbhrdir00.national.core.bbc.co.uk/jupiter/west1/site2site/deleteImmediateFromArchive.jsp?itemid="
+    delCacheShelfMIurl: "http://newsjbhrdir00.national.core.bbc.co.uk/jupiter/west1/site2site/deleteCacheShelfInstances.jsp?userid=bbcnewstest&itemid="
+    readMIinstanceURL: "http://newsjbhrdir00.national.core.bbc.co.uk/jupiter/west1/mediaitem/mediaitemXMLwithInstance.jsp?itemids="
+    #board: "http://newsjbhjoereporting00.national.core.bbc.co.uk/reports/performance/"
+    delMI: "http://newsjbhrdir00.national.core.bbc.co.uk/jupiter/west1/mediaitem/mediaitemsearchGui.jsp?text="
+    mppcheckurl: "http://newsjbhrdir00.national.core.bbc.co.uk/jupiter/west1/supportAllInstance/getMPPQueue.jsp"
+    delzzperform: "http://newsjbhrdir00.national.core.bbc.co.uk/jupiter/west1/mediaitem/mediaitemsearchGui.jsp?text=zzperform&order=creationdatetime"
+    mppcheckurl: "http://newsjbhrdir00.national.core.bbc.co.uk/jupiter/west1/supportAllInstance/getMPPQueue.jsp"
+    zz_reserved: "5638687,5594962,5638659,5638730,5638932,5638703,5594972,5594975,5638676,5638777,6453935,6453936"
+    save_url: "http://newsjbhjoe00.national.core.bbc.co.uk/job/template/jlib_save?username=bbcnewstest"
+    post_sitelocation: "west1-105"
+    post_siteid: "105"
+    renameMI: "http://newsjbhrdir00.national.core.bbc.co.uk/jupiter/west1/mediaitem/mediaupdatefunctions.jsp?action=updatemetadata&source=bbcnewstest&itemid="
+    restore_url: "http://newsjbhrdir00.national.core.bbc.co.uk/jupiter/west1/site2site/submitRestoreRequestToOriginalItem.jsp?username=bbcnewstest&itemid="
+    part_restore_url: "http://newsjbhrdir00.national.core.bbc.co.uk/jupiter/west1/site2site/submitRestorePartialOrPlaceholder.jsp?username=bbcnewstest&itemid="
+    createcomponent: "http://newsjbhrdir00.national.core.bbc.co.uk/jupiter/west1/mediaitem/addnonrightscomponent.jsp?"
+Salford:
+    post_redirector: "http://newsjmrrdir01.national.core.bbc.co.uk/jupiter/salford/"
+    duplicateurl : "http://newsjmrrdir01.national.core.bbc.co.uk/jupiter/salford/mediaitem/copyseedmediaitem.jsp?itemid="
+    getJobIDURL: "http://newsjmrcouch00.national.core.bbc.co.uk/joe-mr/"
+    getJobDataURL: "http://newsjmrcouch00.national.core.bbc.co.uk/joe-mr/_design/performanceTest/_view/performanceTest?key=%22"
+    delOnlineShelfMIurl: "http://newsjmrrdir01.national.core.bbc.co.uk/jupiter/salford/mediaitem/markForDeletion.jsp?userid=bbcnewstest&itemid="
+    delOfflineMIurl: "http://newsjmrrdir01.national.core.bbc.co.uk/jupiter/salford/site2site/deleteImmediateFromArchive.jsp?itemid="
+    delCacheShelfMIurl: "http://newsjmrrdir01.national.core.bbc.co.uk/jupiter/salford/site2site/deleteCacheShelfInstances.jsp?userid=bbcnewstest&itemid="
+    readMIinstanceURL: "http://newsjmrrdir01.national.core.bbc.co.uk/jupiter/salford/mediaitem/mediaitemXMLwithInstance.jsp?itemids="
+    #board: "http://newsjmrjoereporting00.national.core.bbc.co.uk/reports/performance/"
+    delMI: "http://newsjmrrdir01.national.core.bbc.co.uk/jupiter/salford/mediaitem/mediaitemsearchGui.jsp?text="
+    mppcheckurl: "http://newsjmrrdir01.national.core.bbc.co.uk/jupiter/salford/supportAllInstance/getMPPQueue.jsp"
+    delzzperform: "http://newsjmrrdir01.national.core.bbc.co.uk/jupiter/salford/mediaitem/mediaitemsearchGui.jsp?text=zzperform&order=creationdatetime"
+    mppcheckurl: "http://newsjmrrdir01.national.core.bbc.co.uk/jupiter/salford/supportAllInstance/getMPPQueue.jsp"
+    zz_reserved: "2148928,2148935,2148936,2148938,2148945,2148927,2148929,2148931,2148930,2148939,2148923,2148924"
+    save_url: "http://newsjmrjoe00.national.core.bbc.co.uk//job/template/jlib_save?username=bbcnewstest"
+    post_sitelocation: "salford-103"
+    post_siteid: "103"
+    renameMI: "http://newsjmrrdir01.national.core.bbc.co.uk/jupiter/salford/mediaitem/mediaupdatefunctions.jsp?action=updatemetadata&source=bbcnewstest&itemid="
+    restore_url: "http://newsjmrrdir01.national.core.bbc.co.uk/jupiter/salford/site2site/submitRestoreRequestToOriginalItem.jsp?username=bbcnewstest&itemid="
+    part_restore_url: "http://newsjmrrdir01.national.core.bbc.co.uk/jupiter/salford/site2site/submitRestorePartialOrPlaceholder.jsp?username=bbcnewstest&itemid="
+    createcomponent: "http://newsjmrrdir01.national.core.bbc.co.uk/jupiter/salford/mediaitem/addnonrightscomponent.jsp?"
+Millbank:
+    post_redirector: "http://newsjmbrdir00.national.core.bbc.co.uk/jupiter/millbank/"
+    duplicateurl : "http://newsjmbrdir00.national.core.bbc.co.uk/jupiter/millbank/mediaitem/copyseedmediaitem.jsp?itemid="
+    getJobIDURL: "http://newsjmbcouch00.national.core.bbc.co.uk/joe-mb/"
+    getJobDataURL: "http://newsjmbcouch00.national.core.bbc.co.uk/joe-mb/_design/performanceTest/_view/performanceTest?key=%22"
+    delOnlineShelfMIurl: "http://newsjmbrdir00.national.core.bbc.co.uk/jupiter/millbank/mediaitem/markForDeletion.jsp?userid=bbcnewstest&itemid="
+    delOfflineMIurl: "http://newsjmbrdir00.national.core.bbc.co.uk/jupiter/millbank/site2site/deleteImmediateFromArchive.jsp?itemid="
+    delCacheShelfMIurl: "http://newsjmbrdir00.national.core.bbc.co.uk/jupiter/millbank/site2site/deleteCacheShelfInstances.jsp?userid=bbcnewstest&itemid="
+    readMIinstanceURL: "http://newsjmbrdir00.national.core.bbc.co.uk/jupiter/millbank/mediaitem/mediaitemXMLwithInstance.jsp?itemids="
+    #board: "http://newsjmbjoereporting00.national.core.bbc.co.uk/reports/performance/"
+    delMI: "http://newsjmbrdir00.national.core.bbc.co.uk/jupiter/millbank/mediaitem/mediaitemsearchGui.jsp?text="
+    mppcheckurl: "http://newsjmbrdir00.national.core.bbc.co.uk/jupiter/millbank/supportAllInstance/getMPPQueue.jsp"
+    delzzperform: "http://newsjmbrdir00.national.core.bbc.co.uk/jupiter/millbank/mediaitem/mediaitemsearchGui.jsp?text=zzperform&order=creationdatetime"
+    mppcheckurl: "http://newsjmbrdir00.national.core.bbc.co.uk/jupiter/millbank/supportAllInstance/getMPPQueue.jsp"
+    zz_reserved: "1093859,1093861,1093862,1093865,1093867,1093858,1093860,1093863,1093864,1093866,1093856,1093857"
+    save_url: "http://newsjmbjoe00.national.core.bbc.co.uk/job/template/jlib_save?username=bbcnewstest"
+    post_sitelocation: "millbank-101"
+    post_siteid: "101"
+    renameMI: "http://newsjmbrdir00.national.core.bbc.co.uk/jupiter/millbank/mediaitem/mediaupdatefunctions.jsp?action=updatemetadata&source=bbcnewstest&itemid="
+    restore_url: "http://newsjmbrdir00.national.core.bbc.co.uk/jupiter/millbank/site2site/submitRestoreRequestToOriginalItem.jsp?username=bbcnewstest&itemid="
+    part_restore_url: "http://newsjmbrdir00.national.core.bbc.co.uk/jupiter/millbank/site2site/submitRestorePartialOrPlaceholder.jsp?username=bbcnewstest&itemid="
+    createcomponent: "http://newsjmbrdir00.national.core.bbc.co.uk/jupiter/millbank/mediaitem/addnonrightscomponent.jsp?"
+Delivery:
+    location: \\\\zgbwcfs3001.jupiter.bbc.co.uk\\delivery\\fileITADual
+    redbee_location: \\\\zgbwcfs3001.jupiter.bbc.co.uk\\delivery\\RBM
+browser: "chrome"
+utf8: "شبکه جهاني نقل و انتقالات مالي جهان، سوئيفت يا سويفت از امروز خدماتش را به بانک ها و موسسات مالي ايران قطع کرد. گفت و گو با تاجر ايراني مقيم اروپا نشان مي دهد که 我能吞下玻璃而不伤身体。 אני יכול לאכול זכוכית וזה לא מזיק לי. 'âäáàêëéèîïíìôöóòûüúùŵẅẃẁŷÿýỳ' Aš galiu valgyti stiklą ir jis manęs nežeidžia T’ ii”"
+utf8_medium: "شبکه جوز خدماتان مي دهد که 我能吞下玻璃而不伤身体。 אני יכ מזיק לי. 'âäáàêëéèîïẅẃẁŷÿýỳ' Aš gaęs nežeidžia T’ ii”"
+utf8_short: "شبه جوکه 我能身体。אני יכ לי äáàêëéèîïẅẃẁŷÿýỳ'Aš gaęsiaT’ ii”"
